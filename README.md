@@ -44,7 +44,7 @@ This guide walks through the complete setup and configuration of osTicket. We co
 - **Path:** `Admin Panel -> Settings -> User Settings`  
 - **Uncheck:** "Unregistered users can create tickets"  
 - **Enable:** "Registration Required" (Users must register and log in to create tickets)
-    <p align="center">  
+<p align="center">  
   <img src="https://i.imgur.com/AbMN7xT.png" alt="Image 2" width="45%"/>
     
 </p> 
@@ -60,6 +60,10 @@ This guide walks through the complete setup and configuration of osTicket. We co
 - Example Users:  
   - **Karen**  
   - **Ken**  
+<p align="center">  
+  <img src="https://i.imgur.com/pwUwYw9.png" alt="Image 2" width="45%"/>
+    
+</p>
 
 ### 8. Configure SLA (Service Level Agreement)  
 - **Path:** `Admin Panel -> Manage -> SLA`  
