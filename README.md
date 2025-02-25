@@ -9,7 +9,11 @@ This guide walks through the complete setup and configuration of osTicket. We co
 
 ## osTicket Configuration  
 
-### 1. Acknowledge Agent Panel vs Admin Panel  
+### 1. Acknowledge Agent Panel vs Admin Panel
+<p align="center">
+  <img src="https://i.imgur.com/Csb96vB.png" alt="Image 1" width="45%"/>
+  <img src="https://i.imgur.com/1f4HXRM.png" alt="Image 2" width="45%"/>
+</p>
 
 ### 2. Configure Roles (Grouping Permissions)  
 - **Path:** `Admin Panel -> Agents -> Roles`  
