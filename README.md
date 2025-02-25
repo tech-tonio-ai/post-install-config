@@ -53,7 +53,11 @@ This guide walks through the complete setup and configuration of osTicket. We co
 - **Path:** `Admin Panel -> Agents -> Add New`  
 - Example Agents:  
   - **Jane** (Dept: SysAdmins)  
-  - **John** (Dept: Support)  
+  - **Jorge** (Dept: Support)  
+<p align="center">  
+  <img src="https://i.imgur.com/6KcQKjS.png" alt="Image 2" width="45%"/>
+    
+</p>
 
 ### 7. Configure Users (Customers)  
 - **Path:** `Agent Panel -> Users -> Add New`  
