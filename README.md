@@ -3,53 +3,57 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+
+This guide walks through the complete setup and configuration of osTicket. We cover installation, role and department management, user and agent setup, SLA configuration, and ticketing system customization. By following these steps, you'll have a fully functional osTicket system ready for managing support tickets efficiently.  
 
 
-<h2>Video Demonstration</h2>
+## osTicket Configuration  
 
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
+### 1. Acknowledge Agent Panel vs Admin Panel  
 
-<h2>Environments and Technologies Used</h2>
+### 2. Configure Roles (Grouping Permissions)  
+- **Path:** `Admin Panel -> Agents -> Roles`  
+- Example Role: **Supreme Admin**  
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+### 3. Configure Departments (Ticket Visibility)  
+- **Path:** `Admin Panel -> Agents -> Departments`  
+- Example Department: **SysAdmins**  
 
-<h2>Operating Systems Used </h2>
+### 4. Configure Teams  
+- **Path:** `Admin Panel -> Agents -> Teams`  
+- Teams allow agents from different departments to collaborate.  
+- Example Team: **Online Banking**  
 
-- Windows 10</b> (21H2)
+### 5. Allow Anyone to Create Tickets  
+- **Path:** `Admin Panel -> Settings -> User Settings`  
+- **Uncheck:** "Unregistered users can create tickets"  
+- **Enable:** "Registration Required" (Users must register and log in to create tickets)  
 
-<h2>Post-Install Configuration Objectives</h2>
+### 6. Configure Agents (Workers)  
+- **Path:** `Admin Panel -> Agents -> Add New`  
+- Example Agents:  
+  - **Jane** (Dept: SysAdmins)  
+  - **John** (Dept: Support)  
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+### 7. Configure Users (Customers)  
+- **Path:** `Agent Panel -> Users -> Add New`  
+- Example Users:  
+  - **Karen**  
+  - **Ken**  
 
-<h2>Configuration Steps</h2>
+### 8. Configure SLA (Service Level Agreement)  
+- **Path:** `Admin Panel -> Manage -> SLA`  
+- Example SLAs:  
+  - **Sev-A** (Grace Period: **1 hour**, Schedule: **24/7**)  
+  - **Sev-B** (Grace Period: **4 hours**, Schedule: **24/7**)  
+  - **Sev-C** (Grace Period: **8 hours**, Schedule: **Business Hours**)  
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+### 9. Configure Help Topics (Ticket Categories)  
+- **Path:** `Admin Panel -> Manage -> Help Topics`  
+- Example Help Topics:  
+  - **Business Critical Outage**  
+  - **Personal Computer Issues**  
+  - **Equipment Request**  
+  - **Password Reset**  
+  - **Other**  
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
