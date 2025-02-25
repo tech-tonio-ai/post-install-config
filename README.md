@@ -43,7 +43,11 @@ This guide walks through the complete setup and configuration of osTicket. We co
 ### 5. Allow Anyone to Create Tickets  
 - **Path:** `Admin Panel -> Settings -> User Settings`  
 - **Uncheck:** "Unregistered users can create tickets"  
-- **Enable:** "Registration Required" (Users must register and log in to create tickets)  
+- **Enable:** "Registration Required" (Users must register and log in to create tickets)
+    <p align="center">  
+  <img src="https://i.imgur.com/AbMN7xT.png" alt="Image 2" width="45%"/>
+    
+</p> 
 
 ### 6. Configure Agents (Workers)  
 - **Path:** `Admin Panel -> Agents -> Add New`  
