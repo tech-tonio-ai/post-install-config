@@ -74,7 +74,11 @@ This guide walks through the complete setup and configuration of osTicket. We co
 - Example SLAs:  
   - **Sev-A** (Grace Period: **1 hour**, Schedule: **24/7**)  
   - **Sev-B** (Grace Period: **4 hours**, Schedule: **24/7**)  
-  - **Sev-C** (Grace Period: **8 hours**, Schedule: **Business Hours**)  
+  - **Sev-C** (Grace Period: **8 hours**, Schedule: **Business Hours**)
+<p align="center">  
+  <img src="https://i.imgur.com/Wzu7t5j.png" alt="Image 2" width="45%"/>
+    
+</p>
 
 ### 9. Configure Help Topics (Ticket Categories)  
 - **Path:** `Admin Panel -> Manage -> Help Topics`  
@@ -83,5 +87,10 @@ This guide walks through the complete setup and configuration of osTicket. We co
   - **Personal Computer Issues**  
   - **Equipment Request**  
   - **Password Reset**  
-  - **Other**  
+  - **Other**
+  
+<p align="center">  
+  <img src="https://i.imgur.com/d1CeO4L.png" alt="Image 2" width="45%"/>
+    
+</p>
 
