@@ -26,6 +26,10 @@ This guide walks through the complete setup and configuration of osTicket. We co
 ### 3. Configure Departments (Ticket Visibility)  
 - **Path:** `Admin Panel -> Agents -> Departments`  
 - Example Department: **SysAdmins**  
+<p align="center">  
+  <img src="https://i.imgur.com/P9pn9fq.png" alt="Image 2" width="45%"/>
+    
+</p> 
 
 ### 4. Configure Teams  
 - **Path:** `Admin Panel -> Agents -> Teams`  
