@@ -18,8 +18,9 @@ This guide walks through the complete setup and configuration of osTicket. We co
 ### 2. Configure Roles (Grouping Permissions)  
 - **Path:** `Admin Panel -> Agents -> Roles`  
 - Example Role: **Supreme Admin**
-<p align="center">
-  <img src="https://i.imgur.com/wG06VAO.png" alt="Image 1" width="45%"/>  
+<p align="center">  
+  <img src="https://i.imgur.com/sEOyAZG.png" alt="Image 2" width="45%"/>
+    
 </p>  
 
 ### 3. Configure Departments (Ticket Visibility)  
