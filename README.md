@@ -34,7 +34,11 @@ This guide walks through the complete setup and configuration of osTicket. We co
 ### 4. Configure Teams  
 - **Path:** `Admin Panel -> Agents -> Teams`  
 - Teams allow agents from different departments to collaborate.  
-- Example Team: **Online Banking**  
+- Example Team: **Online Banking**
+<p align="center">  
+  <img src="https://i.imgur.com/sdpf4zl.png" alt="Image 2" width="45%"/>
+    
+</p> 
 
 ### 5. Allow Anyone to Create Tickets  
 - **Path:** `Admin Panel -> Settings -> User Settings`  
